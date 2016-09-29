@@ -16,7 +16,7 @@ class Q33 extends SSBQuery {
 	  on lo_custkey = c_customerkey
 	join supplier
 	  on lo_suppkey = s_suppkey
-	join dim_date
+	join date
 	  on lo_orderdatekey = d_datekey
 	where
 	(c_city='UNITED KI1' or c_city='UNITED KI5')
