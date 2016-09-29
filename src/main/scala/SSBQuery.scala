@@ -56,7 +56,7 @@ case class Date(
 case class LineOrder(
     lo_orderkey: Int,
     lo_linenumber: Int,
-    lo_custley: Int,
+    lo_custkey: Int,
     lo_partkey: Int,
     lo_suppkey: Int,
     lo_orderdatekey: Int,
@@ -64,7 +64,7 @@ case class LineOrder(
     lo_shippriority: String,
     lo_quantity: Int,
     lo_extendedprice: Double,
-    lo_ordTotalprice: Double,
+    lo_ordtotalprice: Double,
     lo_discount: Double,
     lo_revenue: Double,
     lo_supplycost: Double,
