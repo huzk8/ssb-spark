@@ -11,7 +11,7 @@ class Q23 extends SSBQuery {
 
         var sql = """select sum(lo_revenue), d_year, p_brand
 	from lineorder
-	join dim_date
+	join date
 	  on lo_orderdatekey = d_datekey
 	join part
 	  on lo_partkey = p_partkey
