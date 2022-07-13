@@ -7,9 +7,9 @@
 - MacOS
 
 ## 下载依赖
-iceberg-spark-runtime-3.2_2.12-0.13.2.jar
-juicefs-1.0.0-rc2-darwin-amd64.tar.gz
-juicefs-hadoop-1.0.0-rc2.jar
+[iceberg-spark-runtime-3.2_2.12-0.13.2.jar](https://repo1.maven.org/maven2/org/apache/iceberg/iceberg-spark-runtime-3.1_2.12/0.13.2/iceberg-spark-runtime-3.1_2.12-0.13.2.jar)
+[juicefs-1.0.0-rc2-darwin-amd64.tar.gz](https://objects.githubusercontent.com/github-production-release-asset-2e65be/327859577/5be7273b-20a3-4ff2-a7bf-932b9996aec2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220713T010413Z&X-Amz-Expires=300&X-Amz-Signature=979e572ab059f4b43741eac48c7597ad84ea80484c0fefb81749104f010aa70e&X-Amz-SignedHeaders=host&actor_id=18548053&key_id=0&repo_id=327859577&response-content-disposition=attachment%3B%20filename%3Djuicefs-1.0.0-rc2-darwin-amd64.tar.gz&response-content-type=application%2Foctet-stream)
+[juicefs-hadoop-1.0.0-rc2.jar](https://objects.githubusercontent.com/github-production-release-asset-2e65be/327859577/823ba0de-38d3-4985-927d-0580909a9809?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220713T034326Z&X-Amz-Expires=300&X-Amz-Signature=cfcf16f5c9598a52af31ac8b8edcd685051e25dfaf8742437460c6cf1bb3d8c1&X-Amz-SignedHeaders=host&actor_id=18548053&key_id=0&repo_id=327859577&response-content-disposition=attachment%3B%20filename%3Djuicefs-hadoop-1.0.0-rc2.jar&response-content-type=application%2Foctet-stream)
 
 ## juicefs环境搭建
 这里使用mysql做juicefs的元数据，而且也用做juicefs的存储，方便测试。
