@@ -1,10 +1,15 @@
 # ssb-spark
 
-## 依赖
+## 依赖说明
 - juicefs-1.0-beata2
 - spark-3.2.1-bin-hadoop2.7
 - mysql-5.7
 - MacOS
+
+## 下载依赖
+iceberg-spark-runtime-3.2_2.12-0.13.2.jar
+juicefs-1.0.0-rc2-darwin-amd64.tar.gz
+juicefs-hadoop-1.0.0-rc2.jar
 
 ## juicefs环境搭建
 这里使用mysql做juicefs的元数据，而且也用做juicefs的存储，方便测试。
